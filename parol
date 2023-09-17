@@ -1,0 +1,6 @@
+import random
+cimvoli=("+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890")
+dlina=int(input("введите длину пароля"))
+for i in range(dlina) :
+    parol=random.choice(cimvoli) 
+    print(parol)
