@@ -64,7 +64,7 @@ def get_fox_image_url():
     url = 'https://randomfox.ca/floof/'
     res = requests.get(url)
     data = res.json()
-    return data['url']
+    return data['image']
 
 
 @bot.command('fox')
