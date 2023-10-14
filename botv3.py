@@ -23,7 +23,7 @@ async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh )
 @bot.command()
 async def commandss(ctx,):
-    await ctx.send("commands: $hello - привет я бот ...  $heh - heh x5  $mem - random mem  $duck - random image,gif" )
+    await ctx.send("commands: $hello - привет я бот ...  $heh - heh x5  $mem - random mem  $duck - random duck meme  $dog - random dog meme  $fox - random fox meme" )
 
 @bot.command()
 async def mem(ctx):
